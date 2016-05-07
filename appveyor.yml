@@ -1,0 +1,21 @@
+
+import numpy
+import numpy as np
+#"Universe Byte Particle", "Matrix Array Containers" World Vision Virtual Bank...(1 Container= 100000 Bytes; 0 to 100; 
+#'_PYRAMIDCHAIN.CONTAINERS_')
+
+arr = np.arange(100).reshape(10,10)
+
+print (arr)
+
+arr= arr*10000000
+
+print(arr)
+
+arr = np.arange(100).reshape(10,10)
+
+arr= arr*10000
+
+print (arr)
+
+print (arr. nbytes) #(’Memory used (in bytes; 0 to 100 _PyramidChainContainers_ )
