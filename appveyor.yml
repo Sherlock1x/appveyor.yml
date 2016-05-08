@@ -1,4 +1,15 @@
+Configuration: Release
 
+# restore Nu Get packages before running MSBuild
+before build:
+  -nuget restore
+  
+# package Web Application project for Web Deploy
+build:
+  verbosity: minimal
+  publish _wap: true
+  
+  
 import numpy
 import numpy as np
 #"Universe Byte Particle", "Matrix Array Containers" World Vision Virtual Bank...(1 Container= 100000 Bytes; 0 to 100; 
